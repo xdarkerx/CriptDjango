@@ -4,17 +4,20 @@ Projeto feito para tarefa de pesquisas de Criptografias. Front feito com Framewo
 
 ## Rodar Projeto
 
-Abra o cmd e execute Python3, caso não tiver isntalado, procure pela ultima versão na Microsoft Store.
+Abra o cmd e execute Python3, caso não tiver instalado, procure pela ultima versão na Microsoft Store.
+Use o comando abaixo para atualizar o PIP:
 
-Para rodar o projeto usando Django:
+```bash
+pip install --upgrade pip
+´´´
 
-Vá até o caminho do projeto e execute
+Após tudo instalado e atualizado, rode o comando dentro do caminho do projeto para criação do ambiente virtualizado.
 
 ```bash
 python3 -m venv env
 ```
 
-Depois rode o ambiente virtualizado (Windows):
+Depois rode os seguintes comandos para ativar o ambiente (Windows):
 
 ```bash
 cd env
@@ -25,19 +28,20 @@ activate.bat
 
 cd ../..
 ```
-Após isso execute o comando para instalar as dependências na máquina.
+
+Instale as dependências na máquina:
 
 ```bash
 pip3 install -r requirements.txt
 ```
 
-Para rodar o projeto:
+Para rodar o Localhost e acessar a plataforma via http:
 
 ```bash
 python3 manage.py runserver
 ```
 
-Caso ocorra alguma mensagem de erro execute:
+Caso ocorra alguma mensagem de erro após a execução do comando acima, remova as dependencias do Django, instale novamente e realise uma migração das variaveis:
 
 ```bash
 pip3 uninstall django
