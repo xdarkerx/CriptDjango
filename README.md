@@ -39,7 +39,7 @@ Para rodar o Localhost e acessar a plataforma via http:
 python3 manage.py runserver
 ```
 
-Caso ocorra alguma mensagem de erro após a execução do comando acima, remova as dependencias do Django, instale novamente e realise uma migração das variaveis:
+Caso ocorra alguma mensagem de erro após a execução do comando acima, remova as dependências do Django, instale novamente e realize uma migração das variáveis:
 
 ```bash
 pip3 uninstall django
