@@ -4,6 +4,8 @@ Projeto feito para tarefa de pesquisas de Criptografias. Front feito com Framewo
 
 ## Rodar Projeto
 
+Abra o cmd e execute Python3, caso não tiver isntalado, procure pela ultima versão na Microsoft Store.
+
 Para rodar o projeto usando Django:
 
 Vá até o caminho do projeto e execute
