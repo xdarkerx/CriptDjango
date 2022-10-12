@@ -9,11 +9,13 @@ Use o comando abaixo para atualizar o PIP:
 
 ```bash
 pip install --upgrade pip
+```
 
 Após tudo instalado e atualizado, rode o comando dentro do caminho do projeto para criação do ambiente virtualizado.
 
 ```bash
 python3 -m venv env
+```
 
 Depois rode os seguintes comandos para ativar o ambiente (Windows):
 
