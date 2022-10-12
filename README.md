@@ -49,7 +49,5 @@ pip3 install django
 python3 manage.py migrate
 ```
 
-pip3 uninstall django
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
