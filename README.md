@@ -46,7 +46,7 @@ Caso ocorra alguma mensagem de erro após a execução do comando acima, remova 
 ```bash
 pip3 uninstall django
 pip3 install django
-python3 manage.py migrate
+python manage.py migrate
 ```
 
 ## License
